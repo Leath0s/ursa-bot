@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="UrsaBot/assets/css/styles.css">
+        <link rel="stylesheet" href="UrsaBot/assets/scss/styles.scss">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+        
+
+        <title>Ursa Bot </title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="header">
+            <div class="header__container">
+
+                <a href="./" class="header__logo">UrsaBot</a>
+    
+                <div class="header__search">
+                    <input type="search" placeholder="Procurar" class="header__input">
+                    <i class='bx bx-search header__icon'></i>
+                </div>
+    
+                <div class="header__toggle">
+                    <i class='bx bx-menu' id="header-toggle"></i>
+                </div>
+            </div>
+        </header>
+
+        <!--========== NAV ==========-->
+        <div class="nav" id="navbar">
+            <nav class="nav__container">
+                <div>
+                    <a href="#" class="nav__link nav__logo">
+                        <i class='bx bxs-disc nav__icon' ></i>
+                        <span class="nav__logo-name">UrsaBot</span>
+                    </a>
+    
+                    <div class="nav__list">
+                        <div class="nav__items">
+                            <h3 class="nav__subtitle">Principal</h3>
+    
+                            <a href="#" class="nav__link active">
+                                <i class='bx bx-home nav__icon' ></i>
+                                <span class="nav__name">Home</span>
+                            </a>
+                            
+                            <div class="nav__dropdown">
+                                <a href="#" class="nav__link">
+                                    <i class='bx bx-user nav__icon' ></i>
+                                    <span class="nav__name">Comandos</span>
+                                    <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+                                </a>
+
+                                <div class="nav__dropdown-collapse">
+                                    <div class="nav__dropdown-content">
+                                        <a href="#diversao" class="nav__dropdown-item">Diversão</a>
+                                        <a href="#uteis" class="nav__dropdown-item">Úteis</a>
+                                        <a href="#economia" class="nav__dropdown-item">Econômia</a>
+                                        <a href="#acoes" class="nav__dropdown-item">Ações</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+            </nav>
+        </div>
+
+        <!--========== CONTENTS ==========-->
+        <main>
+            <section>
+               <h1 class="why-ursa">Porque "Ursa"?</h1>
+               <p class="why-ursa-p">A Ursa foi criada para ser usada por qualquer pessoa, desde que tenha conhecimento no discord ou não.<br> Ela tem um prefixo muito fácil de usar, layout de comando chamativo e um menu de ajuda de fácil entendimento e leitura. <br> Os comandos da Ursa são divertidos, então você nunca terá um momento chato no discord com seus amigos!</p>
+               <h1 class="prefix-h1">Qual o prefixo?</h1>
+               <p class="prefix-p">Fácil! Mencionando ela você poderá receber uma mensagem rápida monstrando o prefixo e o comando de ajuda!</p>
+               <h1 class="open-source-h1">Ela é Open Source?</h1>
+               <p class="open-source-p">Felizmente ainda não :( Pois como a diversos repositório em conjunto alem das Api Grabber, Faze-la open source seria uma tarefa difícil.</p>
+
+               <div class="middle">
+                <a href="https://discord.com/oauth2/authorize?client_id=785567076302979113&permissions=0&scope=bot" class="button button1">Me adicione!</a>
+
+                <a href="https://discord.com/oauth2/authorize?client_id=742120244990181436&permissions=8&scope=bot" class="button button1">Servidor</a>
+              </div>
+            </section>
+
+   
+            
+            <section class="resources">
+                <div class="incredible" id="resources">
+                    <hr id="resources">
+                    <h1 id="resources">Recursos Incríveis!</h1>
+                    <h2>Imagens card</h2>
+                    <p>Embelezando comandos com incríveis imagens canvas e APIs!</p>
+                    <h2>Para todos!</h2>
+                    <p>Chega de bots com funções confusas e melaborantes! Com a Ursa tudo é supinpa!</p>
+                    <h2>Gerencie Tudo</h2>
+                    <p>Tudo oque você precisa para gerenciar seu servidor esta na Ursa!</p>
+                    <h2>Qualidade</h2>
+                    <p>Uma bot básica, Porém com um potencial grande! Nunca te deixarei a desejar.</p>
+                    <h2>Sistema Músical</h2>
+                    <p>Sistema musical com layout que você precisa e completo!</p>
+                    <h2>Reações</h2>
+                    <p>Deixe me mostrar como seu servidor e fantástico com emojis react incríveis!</p>
+                    <h2>Tema Oriental</h2>
+                    <p>Otaku? Perfeito! pois ela não é seu banco da Itau, Mais foi feita pra você!</p>
+                    <h2>Informações Estendidas</h2>
+                    <p>Todas as informações que você precisa para usa-la são fáceis de obter!</p>
+                    <hr>
+                </div>
+  </section>
+                <section class="commands">
+                    <div class="fun" id="diversao">
+                        <h1>Comandos Disponíveis</h1>
+                        <p>(Comandos adicionados durante atualização v1.0.1, novos comandos em breve...)</p>
+                        <h1 class="fun-h1">Diversão</h1>
+                       <h1>Bolsonaro</h1>
+                     <p>Como usar: u-bolsonaro</p>
+
+                        <h1>Lixo</h1>
+                        <p>Como usar: u-lixo</p>
+
+                        <h1>Stonks</h1>
+                        <p>Como usar: u-stonks</p>
+
+                        <h1>Gado</h1>
+                        <p>Como usar: u-gado</p>
+
+                        <h1>Invert</h1>
+                        <p>Como usar: u-invert</p>
+
+                        <h1>Jokenpo</h1>
+                        <p>Como usar: u-jokenpo</p>
+
+                        <h1>Arte </h1>
+                        <p>Como usar: u-arte</p>
+
+                        <h1>Conquista</h1>
+                        <p>Como usar: u-conquista</p>
+
+                        <h1>Carinha</h1>
+                        <p>Como usar: u-carinha</p>
+
+                        <h1>Impostor</h1>
+                        <p>Como usar: u-impostor</p>
+
+                        <h1>Mix</h1>
+                        <p>Como usar: u-mix</p>
+
+                        <h1>Notstonks</h1>
+                        <p>Como usar: u-notstonks</p>
+
+                        <h1>8ball</h1>
+                        <p>Como usar: u-ursa</p>
+
+                        <h1>Desmotivação</h1>
+                        <p>Como usar: u-des</p>
+
+                        <h1>Motivação</h1>
+                        <p>Como usar: u-mot</p>
+
+
+                        <h1>Captcha</h1>
+                        <p>Como usar: u-re</p>
+
+                        <h1>Reverse</h1>
+                        <p>Como usar: u-reverse</p>
+                    </div>
+                    
+                    <div class="uteis" id="uteis">
+                        <hr>
+                        <h1>Úteis</h1>
+                       
+                        <h1>Clima</h1>
+                        <p>Como usar: u-clima</p>
+
+                        <h1>Covid</h1>
+                        <p>Como usar: u-covid</p>
+
+                        <h1>Reps</h1>
+                        <p>Como usar: u-reps</p>
+
+                        <h1>Avatar</h1>
+                        <p>Como usar: u-avatar</p>
+
+                        <h1>BotInfo</h1>
+                        <p>Como usar: u-botinfo</p>
+
+                        <h1>Help</h1>
+                        <p>Como usar: u-help</p>
+
+                        <h1>Ping</h1>
+                        <p>Como usar: u-ping</p>
+
+                        <h1>ServerInfo</h1>
+                        <p>Como usar: u-serverinfo<p>
+               <br>
+                        <h1>Sugestão</h1>
+                        <p>Como usar: u-sugestao</p>
+                       
+                        <h1>ServerIcon</h1>
+                        <p>Como usar: u-servericon</p>
+
+                      
+
+                        <h1>UserInfo</h1>
+                        <p>Como usar: u-userinfo</p>
+
+
+                    </div>
+                    <hr>
+
+                    <div class="economia" id="economia"> 
+
+                        <h1>Economia</h1>
+
+
+                        <h1>Apostar</h1>
+                        <p>Como usar: u-apostar</p>
+
+                        <h1>ATM</h1>
+                        <p>Como usar: u-atm</p>
+
+                        <h1>Comprar Premium</h1>
+                        <p>Como usar: u-buypremium</p>
+
+                        <h1>Coinflip</h1>
+                        <p>Como usar: u-coinflip</p>
+
+                        <h1>Comprar</h1>
+                        <p>Como usar: u-coinfilp</p>
+
+                        <h1>Daily</h1>
+                        <p>Como usar: u-daily</p>
+
+                        <h1>Loja</h1>
+                        <p>Como usar: u-loja</p>
+
+                        <h1></h1>
+                        <p></p>
+
+                    </div>
+
+                    <div class="acoes" id="acoes">
+
+
+                        <h1>Abraçar</h1>
+                        <p>Como usar: u-abraçar</p>
+
+                        <h1>Beijar</h1>
+                        <p>Como usar: u-abraçar</p>
+
+                        <h1>Chorar</h1>
+                        <p>Como usar: u-chorar</p>
+                        
+
+                        <h1>Raiva</h1>
+                        <p>Como usar: u-raiva</p>
+
+                        <h1>Dormir</h1>
+                        <p>Como usar: u-dormir</p>
+
+                        <h1>Feliz</h1>
+                        <p>Como usar: u-feliz</p>
+
+
+                        <h1>Bater</h1>
+                        <p>Como usar: u-bater</p>
+
+
+
+
+
+
+
+                    </div>
+                </section>
+                <hr>
+
+          <footer>
+
+            <p>&copy; Site desenvolvido por <a href="https://beacons.ai/le_ath0s">Le ath0s</a></p>
+          </footer>
+        </main>
+        <!--========== MAIN JS ==========-->
+        <script src="UrsaBot/assets/js/main.js"></script>
+    </body>
+</html>
